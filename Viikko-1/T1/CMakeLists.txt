@@ -22,7 +22,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Add platform-specific compiler warnings
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     add_compile_options(
-        -Werror
+        #-Werror
         -Wall
         -Weffc++
         -Wextra

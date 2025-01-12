@@ -1,9 +1,5 @@
 #include <iostream>
 
-
-
-
-
 void swappausOsoitin(int *a, int *b) {
     int temp{*a};
     *a = *b;
@@ -30,12 +26,4 @@ int main() {
     std::cout << "c: " << c << " d: " << d << " ennen swappia\n";
     swappausViite(c, d);
     std::cout << "c: " << c << " d: " << d << " swapin jälkeen\n";
-
-
-
 }
-
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.

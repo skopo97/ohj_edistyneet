@@ -1,18 +1,16 @@
-# Build files #
+# Clion build filut #
 bin/
 build/
 cmake-build-debug/
 
-# User settings #
+# Henk.koht asetukset #
 .vscode/
 .idea/
 
-/compile_commands.json
-
-# OS-generated files #
+# randomia  #
 ._*
 .Trashes
 *.idx
 
-#
+# Tehtävät #
 *.docx

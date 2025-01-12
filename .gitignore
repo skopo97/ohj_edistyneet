@@ -15,4 +15,4 @@ cmake-build-debug/
 *.idx
 
 #
-.docx
+*.docx

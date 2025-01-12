@@ -1,0 +1,15 @@
+# Build files #
+bin/
+build/
+cmake-build-debug/
+
+# User settings #
+.vscode/
+.idea/
+
+/compile_commands.json
+
+# OS-generated files #
+._*
+.Trashes
+*.idx

@@ -15,6 +15,7 @@ cmake-build-debug/
 
 # Tehtävät #
 *.docx
+*.docx#
 
 # txt tiedostot #
 *.txt

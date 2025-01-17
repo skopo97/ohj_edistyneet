@@ -2,6 +2,7 @@
 bin/
 build/
 cmake-build-debug/
+.clang-format
 
 # Henk.koht asetukset #
 .vscode/

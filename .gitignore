@@ -15,7 +15,7 @@ cmake-build-debug/
 
 # Tehtävät #
 *.docx
-*.docx#
+.~lock.*.docx#
 
 # txt tiedostot #
 *.txt

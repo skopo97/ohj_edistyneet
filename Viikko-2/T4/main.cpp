@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
+#include <math>
 //prime_half
 int isPrime(int x) {
     if (x == 0 || x == 1) {
@@ -9,7 +9,8 @@ int isPrime(int x) {
     for (int i {2}; i <= x / 2; ++i) {
         if (x % i == 0) {
             return false;
-        }
+       
+  }
     }
     return true;
 }

@@ -1,11 +1,12 @@
 #include <iostream>
 #include <iomanip>
+#include <string_view>
 
 struct aika_ty {
     int tunti, minuutti, sekunti;
 };
 
-int tarkistaSyote(const std::string &syote, int min, int max) {
+int tarkistaSyote(const std::string_view syote, int min, int max) {
     int arvo{};
     while (true) {
         std::cout << syote;
@@ -54,6 +55,5 @@ int main() {
     if (uusiAika1.tunti == uusiAika.tunti && uusiAika1.minuutti == uusiAika.minuutti && uusiAika1.sekunti == uusiAika.sekunti) {
         std::cout << "Sisällöt ovat samat\n";
     }
-
     return 0;
 }

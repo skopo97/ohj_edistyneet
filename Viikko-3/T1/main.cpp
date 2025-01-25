@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>
-#include <ctime>
+
 
 void sekunnit_ajaksi(int sekunit, int &minuutit, int &tunnit) {
     minuutit = sekunit / 60;
@@ -13,7 +13,7 @@ void sekunnit_ajaksi(int sekunit, int &minuutit, int &tunnit) {
 int main() {
     int minuutit{};
     int tunnit{};
-    int sekunit{10000};
+    int sekunit{955};
     std::cout << sekunit << " sekuntia on: ";
     sekunnit_ajaksi(sekunit, minuutit, tunnit);
 }

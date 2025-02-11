@@ -19,7 +19,6 @@ int main() {
 
     output << "<html>\n";
     output << "<head>\n";
-    output << "    <title>" << name << "</title>\n";
     output << "</head>\n";
     output << "<body>\n";
     output << "    <center>\n";

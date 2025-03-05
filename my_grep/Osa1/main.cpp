@@ -3,12 +3,12 @@
 
 int main() {
     // Pyydetään käyttäjältä merkkijono
-    std::cout << "Give a string from which to search for : ";
+    std::cout << "Anna merkkijono, josta etsitään : ";
     std::string inputString;
     std::getline(std::cin, inputString);
 
     // Pyydetään käyttäjältä etsittävä merkkijono
-    std::cout << "Give a search string : ";
+    std::cout << "Anna etsittävä merkkijono : ";
     std::string searchString;
     std::getline(std::cin, searchString);
 

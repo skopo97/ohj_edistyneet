@@ -7,24 +7,24 @@
 
 
 
-class Paivays {
+class Paivays{
 private:
-    int m_paiva{};
-    int m_kuukausi{};
-    int m_vuosi{};
+int m_paiva{};
+int m_kuukausi{};
+int m_vuosi{};
 
 public:
-    //setterit
-    void setPaiva(const int& paiva);
-    void setKuukausi(const int& kuukausi);
-    void setVuosi(const int& vuosi);
+//setterit
+void setPaiva(const int& paiva);
+void setKuukausi(const int& kuukausi);
+void setVuosi(const int& vuosi);
 
-    //getterit
-    int getPaiva() const;
-    int getKuukausi() const;
-    int getVuosi() const;
+//getterit
+int getPaiva() const;
+int getKuukausi() const;
+int getVuosi() const;
 
-    void tulostaPaivays() const;
+void tulostaPaivays() const;
 };
 
 

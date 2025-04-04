@@ -1,12 +1,9 @@
 #include <iostream>
 #include "Henkilo.h"
-
+#include <vector>
 int main() {
-    Henkilo alkuperainen("Sami Koponen", 28);
-    Henkilo kopio(alkuperainen, "Uusi henkilo");
-    std::cout << "Alkuperäinen henkilö luotu\n";
-    alkuperainen.tulostaHenkilonTiedot();
-    std::cout << "Kopioitu henkilö luotu\n";
-    kopio.tulostaHenkilonTiedot();
+    std::vector<Henkilo> henkilot;
+
+
     return 0;
 }

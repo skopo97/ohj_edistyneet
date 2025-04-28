@@ -6,8 +6,8 @@
 
 int main() {
 
-Opettaja tehtava1 (20, "Matti Meikäläinen", Osoite("Katu 1", "12345", "Helsinki"),
-    "Matematiikka", {"Matikka 1", "Matikka 2"});
+Opettaja tehtava1 (20, "Matti Esimerkki", Osoite("Katu 1", "12345", "Helsinki"),
+    "Tietotekniikka", {"Ohejelmointi V1 1", "Matematiikka 2"});
     std::cout << "Muutetaan ikää, kun tietue on vielä private\n";
     tehtava1.muokkaaIkaa(30);
     std::cout << "Opettajan ikä on nyt: " << tehtava1.getIka() << '\n';
